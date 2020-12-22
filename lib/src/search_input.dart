@@ -79,8 +79,7 @@ class SearchInputState extends State<SearchInput> {
               controller: editController,
               decoration: InputDecoration(
                 hintText: widget.hintText ??
-                    S.of(context)?.search_place ??
-                    'Search place',
+                    "Buscar lugar",
                 border: InputBorder.none,
               ),
               onChanged: (value) {
